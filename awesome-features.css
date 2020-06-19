@@ -122,9 +122,9 @@ section{
     }
 } 
 
-@media (max-width:620px){
+@media (max-width:630px){
     .container{
-        width: 100%;
+        width: 95%;
         margin: 5%;
     }
     .features .row-3>*{
@@ -151,15 +151,32 @@ section{
         position: relative;
         color: #ccc;
         font-size: 2em;
+    }
+
+    /* ЛИЧНОЕ ОБРАЩЕНИЕ К i */
+    /* .features .row-3 .text-right .fa-play{
+        color: tomato;
+    }
+
+    .features .row-3 .text-right .fa-volume-up{
+        position: relative;
+        color: tomato;
+        font-size: 2em;
         bottom: -1em;
         left: -5em;
     }
-    
+
+    .features .row-3 .text-right .fa-cog{
+        position: relative;
+        color: tomato;
+        font-size: 2em;
+        bottom: -1em;
+        left: -8.8em;
+    } */
+
     .features .row-3 .text-left i{
         position: relative;
         color: #ccc;
         font-size: 1.8em;
-        bottom: -1em;
-        left: -1.2em;
     }
 } 
